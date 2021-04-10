@@ -1,0 +1,86 @@
+<html>
+<head>
+
+        <meta charset = "utf-8">
+        <link href = "style.css" rel="stylesheet">
+       
+        <title>Javascript DOM project</title>    
+
+</head>
+
+    <body>
+        <div id = "wrapper">
+             
+            <header>
+
+                <div id = "page-banner">
+                  <h1 class = "title">BookBucket</h1>
+                  <p>A single source shortest path for any book you need for engineering subjects</p>
+
+                  <form id = "search-books">
+                   <input type ="text" placeholder = "search books">
+
+                  </form>
+
+                </div>
+                
+            </header>
+            <div id="book-list">
+
+                <h2 class = "title">Books to read</h2>
+                <ul>
+
+                    <li>
+                        <span class = "name">
+                           <a href="#">Operating systems</a>
+
+                           
+                        </span>
+                        <span class = "delete">
+                            Delete
+                        </span>
+                    </li>
+                    <li>
+                        <span class = "name">
+                            <a href="#"> Advanced data structures and algorithms</a>
+                   
+                        </span>
+                        <span class = "delete">
+                            Delete
+                        </span>
+                    </li>
+                    <li>
+                        <span class = "name">
+                            <a href="#"> Computer archeitecture and organization</a>
+
+                         
+                        </span>
+                        <span class = "delete">
+                            Delete
+                        </span>
+                    </li>
+                    <li>
+                        <span class = "name">
+                           <a href="#">  Operating system(PPT)</a> 
+                          
+                         
+                        </span>
+                        <span class = "delete">
+                            Delete
+                        </span>
+                    </li>
+                
+                </ul>
+            </div>
+            <form id = "add-book">
+
+                <input type = "checkbox" id = "hide"/>
+                <label for="hide">Hide all books</label>
+                <input type = "url" placeholder= "type the url...">
+              <input type = "text" placeholder= "Add a book">
+               <button>Add a book</button>
+            </form>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
